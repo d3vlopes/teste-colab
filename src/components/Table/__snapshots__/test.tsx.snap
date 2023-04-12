@@ -1,0 +1,152 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Table > should match snapshot 1`] = `
+.c0 {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.c0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c1 {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.c3:not(:last-child) {
+  border-bottom: 1px solid #312e2e;
+}
+
+.c2 {
+  text-align: left;
+  padding: 0.8rem 2rem;
+  background-color: #811AC0;
+  font-weight: 700;
+}
+
+.c4 {
+  padding: 0.8rem 2rem;
+  color: #D6D6D6;
+}
+
+.c4:nth-child(5) {
+  text-align: center;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      class="c1"
+    >
+      <thead
+        class=""
+        data-testid="thead"
+      >
+        <th
+          class="c2"
+          data-testid="id"
+        >
+          ID
+        </th>
+        <th
+          class="c2"
+          data-testid="first-name"
+        >
+          First Name
+        </th>
+        <th
+          class="c2"
+          data-testid="last-name"
+        >
+          Last Name
+        </th>
+        <th
+          class="c2"
+          data-testid="title"
+        >
+          Title
+        </th>
+        <th
+          class="c2"
+          data-testid="date"
+        >
+          Date
+        </th>
+        <th
+          class="c2"
+          data-testid="age"
+        >
+          Age
+        </th>
+        <th
+          class="c2"
+          data-testid="actions"
+        >
+          Actions
+        </th>
+      </thead>
+      <tbody
+        class=""
+        data-testid="tbody"
+      >
+        <tr
+          class="c3"
+        >
+          <td
+            class="c4"
+            data-testid="value-id"
+          >
+            0396a453
+          </td>
+          <td
+            class="c4"
+            data-testid="value-first-name"
+          >
+            John
+          </td>
+          <td
+            class="c4"
+            data-testid="value-last-name"
+          >
+            Doe
+          </td>
+          <td
+            class="c4"
+            data-testid="value-title"
+          >
+            Loren ipsum
+          </td>
+          <td
+            class="c4"
+            data-testid="value-date"
+          >
+            03/08/1992
+          </td>
+          <td
+            class="c4"
+            data-testid="value-age"
+          >
+            30
+          </td>
+          <td
+            class="c4"
+          >
+            <a
+              href="/user/0396a453-cf62-4aa5-b9a2-c85086be7ee2"
+            >
+              View Profile
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
