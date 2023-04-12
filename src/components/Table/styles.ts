@@ -8,6 +8,11 @@ export const Wrapper = styled.div`
     a {
       text-decoration: none;
       color: ${theme.colors.primary[500]};
+      transition: ${theme.transition.fast};
+
+      &:hover {
+        filter: brightness(0.8);
+      }
     }
   `}
 `;
@@ -43,9 +48,5 @@ export const Td = styled.td`
   ${({ theme }) => css`
     padding: 0.8rem 2rem;
     color: ${theme.colors.neutral[300]};
-
-    &:nth-child(5) {
-      text-align: center;
-    }
   `}
 `;

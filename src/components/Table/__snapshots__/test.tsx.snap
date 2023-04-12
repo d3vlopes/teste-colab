@@ -9,7 +9,14 @@ exports[`Table > should match snapshot 1`] = `
 .c0 a {
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: inherit;
+  color: #811AC0;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.c0 a:hover {
+  -webkit-filter: brightness(0.8);
+  filter: brightness(0.8);
 }
 
 .c1 {
@@ -32,10 +39,6 @@ exports[`Table > should match snapshot 1`] = `
 .c4 {
   padding: 0.8rem 2rem;
   color: #D6D6D6;
-}
-
-.c4:nth-child(5) {
-  text-align: center;
 }
 
 <div>
