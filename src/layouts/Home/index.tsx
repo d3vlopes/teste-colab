@@ -44,7 +44,7 @@ export const HomeLayout = () => {
 
       <S.Divider />
 
-      {error && renderError(error)}
+      {!!error && renderError(error)}
       {isLoading ? renderLoading() : renderTable(data)}
     </S.Wrapper>
   );
