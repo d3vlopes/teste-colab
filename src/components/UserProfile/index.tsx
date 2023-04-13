@@ -13,7 +13,7 @@ export interface UserProfileProps {
 export const UserProfile = ({ userInfo }: UserProfileProps) => {
   return (
     <S.Wrapper>
-      <S.Image src={userInfo.image} alt={userInfo.name} />
+      {userInfo.image && <S.Image src={userInfo.image} alt={userInfo.name} />}
       <S.Heading>{userInfo.name}</S.Heading>
       <S.Subtitle>{userInfo.subtitle}</S.Subtitle>
     </S.Wrapper>
