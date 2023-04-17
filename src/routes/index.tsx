@@ -4,7 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import { Home } from "../pages";
+import { Home, UserPage } from "../pages";
 
 export const Routes = () => {
   return (
@@ -12,6 +12,7 @@ export const Routes = () => {
       <div className="App">
         <RouterDomRoutes>
           <Route path="/" element={Home()} />
+          <Route path="/user/:id" element={UserPage()} />
         </RouterDomRoutes>
       </div>
     </BrowserRouter>

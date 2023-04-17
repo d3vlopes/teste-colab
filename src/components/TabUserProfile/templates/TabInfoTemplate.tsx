@@ -2,7 +2,7 @@ import { capitalize } from "../../../utils";
 
 import { nationalityMap } from "../helpers";
 
-type Nationality =
+export type Nationality =
   | "AU"
   | "BR"
   | "CA"
